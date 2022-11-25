@@ -1,0 +1,86 @@
+body{
+    background-color: #07334e;
+    background-size:100%;
+    margin: 0;
+    padding: 0;
+    font-family:Arial;
+}
+
+
+.navigation {
+    background-color: #0c779c;
+    color: black;
+    height: 70px;
+    font-weight: 400;
+
+    animation-name: navegacao;
+    animation-duration: 2s;
+}
+
+.navigation ul {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 50px;
+    list-style: none;
+    text-align: right;
+    height: 70px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navigation a:hover {
+    color: rgb(255, 136, 0);
+}
+
+.navigation li {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 70px;
+    font-size: 16px;
+}
+
+.navigation-img img {
+    height: 100px;
+    margin-top: -109px;
+    margin-left: -30px;
+}
+
+#modelo-branco {
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+.carousel{
+    width: 800px!important;
+    margin-left: 22%;
+}
+
+.w-100{
+    margin-top: 20px;
+}
+
+.title-prod{
+    text-align: center;
+    color: #1ce6fb;
+}
+
+
+
+
+
+
+
+

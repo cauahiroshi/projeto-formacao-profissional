@@ -1,0 +1,180 @@
+body{
+    background-color: #07334e;
+    background-size:100%;
+    margin: 0;
+    padding: 0;
+    font-family:Arial;
+}
+
+
+.navigation {
+    background-color: #0c779c;
+    color: black;
+    height: 70px;
+    font-weight: 400;
+
+    animation-name: navegacao;
+    animation-duration: 2s;
+}
+
+.navigation ul {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 50px;
+    list-style: none;
+    text-align: right;
+    height: 70px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navigation a:hover {
+    color: rgb(255, 136, 0);
+}
+
+.navigation li {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 70px;
+    font-size: 16px;
+}
+
+.navigation-img img {
+    height: 100px;
+    margin-top: -109px;
+    margin-left: -30px;
+}
+
+#modelo-branco {
+    height: 150px;
+}
+
+#letreiro-branco {
+    margin-bottom: 25px;
+}
+
+
+
+
+
+.main{
+
+    padding: 80px 180px 80px 80px ;  
+
+    animation-name: conteudo;
+    animation-duration: 2s;
+}
+
+.main h1{
+    color: white;
+    font-weight: normal;
+}
+
+.main h2{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-top: 50px;
+}
+
+.main h3{
+    text-transform: uppercase;
+    color: #1ce6fb;
+    font-size: 12px;
+}
+
+.main p{
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.miniatura{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.miniatura a{
+    text-decoration: none;
+}
+
+.black-box{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    padding-top: 120px;
+    transition: 0.5s;
+}
+
+.black-box:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.blackbox-text{
+    text-align: center;
+}
+
+.blackbox-text h1{
+    font-size: 16px;
+    color: #1ce6fb;
+    text-transform: uppercase;
+    margin-top:0px;
+}
+
+.blackbox-text h2{
+    font-weight: 100;
+    text-transform: none;
+    margin: 0;
+}
+
+.foto-trabalhos{
+    width: 70%;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.subtitle-pic-works{
+    color: white; 
+    font-size:14px;
+    margin-top: -10px;
+    font-weight: 100;
+}
+
+
+.carousel{
+    width: 800px!important;
+    margin-left: 22%;
+}
+
+.w-100{
+    margin-top: 20px;
+}
+
+.title-prod{
+    text-align: center;
+    color: #1ce6fb;
+}
+
+
+
+
+
+
+
+
